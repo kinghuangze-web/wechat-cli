@@ -7,7 +7,8 @@
 - [原有读者手册（早期版）](../BEGINNER_GUIDE.md)：基础接入与查询。新的接收程序迁移见下方 Windows 附注。
 - [Windows 安装与兼容处理](SETUP_WINDOWS.md)：源码安装、初始化、Config.Cipher 修复及真实查询验收。
 - [Grok Bot 与手机微信接入](GROK_WECHAT.md)：两条独立连接、人工操作点、图片验收和恢复。
-- [Windows 本地接收迁移附注](WINDOWS_BRIDGE.md)：仅迁移接收与转发；Grok Bot 仍处理并回复。WorkBuddy 负责本地准备，旧端停止后才启用本地接收。
+- [Windows 本地接收迁移附注](WINDOWS_BRIDGE.md)：仅迁移接收与转发；Grok Bot 仍处理并回复。Grok Bot 可通过已有本机执行能力自行迁移，旧端停止后才启用本地接收。
+- [可直接发给 Grok Bot 的完整迁移提示词](WINDOWS_BRIDGE_PROMPT.md)：复制发送即可，由 Grok Bot 完成部署与切换。
 - [可选 Windows 补丁](windows-config-cipher.patch) 与[合成检查](test_windows_config_cipher.py)：沿用仓库根目录的 Apache-2.0 LICENSE。
 
 ## 执行约定
